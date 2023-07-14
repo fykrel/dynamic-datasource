@@ -1,0 +1,17 @@
+server:
+  port: 15566
+
+dynamic:
+  type: TWO
+  tenantFieldName: selfId
+
+spring:
+  datasource:
+    dynamic:
+      primary: master
+      datasource:
+        master:
+          username: root
+          password: fangyk
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://localhost:13306/?accountUnicode=true&characterEncoding=utf-8&serverTimezone=HongKong&allowMultiQueries=true

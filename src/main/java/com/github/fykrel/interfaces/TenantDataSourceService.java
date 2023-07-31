@@ -1,6 +1,6 @@
-package com.github.fykrel.interfaces;
+package io.github.fykrel.interfaces;
 
-import com.github.fykrel.domain.TenantDataSource;
+import io.github.fykrel.domain.TenantDataSource;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.github.fykrel.domain;
+package io.github.fykrel.domain;
 
 import java.io.Serializable;
 

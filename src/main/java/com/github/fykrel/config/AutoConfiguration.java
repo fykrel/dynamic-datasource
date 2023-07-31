@@ -1,8 +1,8 @@
-package com.github.fykrel.config;
+package io.github.fykrel.config;
 
-import com.github.fykrel.config.properties.PrimaryDataSourceProperties;
-import com.github.fykrel.config.properties.TenantProperties;
-import com.github.fykrel.runner.DataSourceRunner;
+import io.github.fykrel.config.properties.PrimaryDataSourceProperties;
+import io.github.fykrel.config.properties.TenantProperties;
+import io.github.fykrel.runner.DataSourceRunner;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
@@ -15,6 +15,6 @@ import org.springframework.context.annotation.Import;
  */
 @Configuration
 @EnableConfigurationProperties({TenantProperties.class, PrimaryDataSourceProperties.class})
-@Import({com.github.fykrel.config.DynamicDataSourceConfig.class, com.github.fykrel.config.MybatisPlusConfig.class, DataSourceRunner.class, com.github.fykrel.config.WebMvcConfig.class})
+@Import({io.github.fykrel.config.DynamicDataSourceConfig.class, io.github.fykrel.config.MybatisPlusConfig.class, DataSourceRunner.class, io.github.fykrel.config.WebMvcConfig.class})
 public class AutoConfiguration {
 }

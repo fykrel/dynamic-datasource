@@ -1,7 +1,7 @@
-package com.github.fykrel.runner;
+package io.github.fykrel.runner;
 
-import com.github.fykrel.interfaces.TenantDataSourceService;
-import com.github.fykrel.datasource.DynamicDataSource;
+import io.github.fykrel.interfaces.TenantDataSourceService;
+import io.github.fykrel.datasource.DynamicDataSource;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 

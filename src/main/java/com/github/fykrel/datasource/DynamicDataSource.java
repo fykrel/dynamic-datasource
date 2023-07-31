@@ -1,8 +1,8 @@
-package com.github.fykrel.datasource;
+package io.github.fykrel.datasource;
 
-import com.github.fykrel.config.properties.TenantProperties;
-import com.github.fykrel.domain.TenantDataSource;
-import com.github.fykrel.support.TenantThreadLocalHolder;
+import io.github.fykrel.config.properties.TenantProperties;
+import io.github.fykrel.domain.TenantDataSource;
+import io.github.fykrel.support.TenantThreadLocalHolder;
 import com.zaxxer.hikari.HikariDataSource;
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 

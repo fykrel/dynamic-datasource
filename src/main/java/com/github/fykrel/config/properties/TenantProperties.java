@@ -1,4 +1,4 @@
-package com.github.fykrel.config.properties;
+package io.github.fykrel.config.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

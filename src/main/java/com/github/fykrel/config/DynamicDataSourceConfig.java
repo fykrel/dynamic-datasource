@@ -1,7 +1,7 @@
-package com.github.fykrel.config;
+package io.github.fykrel.config;
 
-import com.github.fykrel.config.properties.PrimaryDataSourceProperties;
-import com.github.fykrel.datasource.DynamicDataSource;
+import io.github.fykrel.config.properties.PrimaryDataSourceProperties;
+import io.github.fykrel.datasource.DynamicDataSource;
 import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Primary;

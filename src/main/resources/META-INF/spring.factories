@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.fangyk.config.AutoConfiguration
+io.github.fykrel.config.AutoConfiguration

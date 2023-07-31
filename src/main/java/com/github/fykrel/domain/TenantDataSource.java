@@ -1,4 +1,4 @@
-package com.fangyk.domain;
+package com.github.fykrel.domain;
 
 import java.io.Serializable;
 

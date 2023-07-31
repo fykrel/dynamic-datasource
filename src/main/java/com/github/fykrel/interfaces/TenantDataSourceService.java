@@ -1,6 +1,6 @@
-package com.fangyk.interfaces;
+package com.github.fykrel.interfaces;
 
-import com.fangyk.domain.TenantDataSource;
+import com.github.fykrel.domain.TenantDataSource;
 
 import java.util.List;
 

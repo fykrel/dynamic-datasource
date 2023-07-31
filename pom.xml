@@ -7,7 +7,7 @@
         <version>2.7.13</version>
         <relativePath/>
     </parent>
-    <groupId>com.github.fangyk-rel</groupId>
+    <groupId>com.github.fykrel</groupId>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>dynamic-datasource</artifactId>
     <version>1.0.0</version>

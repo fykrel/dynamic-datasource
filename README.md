@@ -7,7 +7,7 @@
 - 添加项目依赖
 ```xml
         <dependency>
-            <groupId>com.github.fangyk-rel</groupId>
+            <groupId>com.github.fykrel</groupId>
             <artifactId>dynamic-datasource</artifactId>
             <version>1.0.0</version>
         </dependency>

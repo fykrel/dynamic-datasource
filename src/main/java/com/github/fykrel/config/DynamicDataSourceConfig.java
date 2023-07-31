@@ -1,7 +1,7 @@
-package com.fangyk.config;
+package com.github.fykrel.config;
 
-import com.fangyk.config.properties.PrimaryDataSourceProperties;
-import com.fangyk.datasource.DynamicDataSource;
+import com.github.fykrel.config.properties.PrimaryDataSourceProperties;
+import com.github.fykrel.datasource.DynamicDataSource;
 import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Primary;

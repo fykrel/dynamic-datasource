@@ -1,8 +1,8 @@
-package com.fangyk.config;
+package com.github.fykrel.config;
 
 import com.baomidou.mybatisplus.core.MybatisConfiguration;
 import com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean;
-import com.fangyk.datasource.DynamicDataSource;
+import com.github.fykrel.datasource.DynamicDataSource;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Primary;

@@ -1,6 +1,6 @@
-package com.fangyk.config;
+package com.github.fykrel.config;
 
-import com.fangyk.interceptors.TenantInterceptor;
+import com.github.fykrel.interceptors.TenantInterceptor;
 import org.springframework.context.annotation.Import;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;

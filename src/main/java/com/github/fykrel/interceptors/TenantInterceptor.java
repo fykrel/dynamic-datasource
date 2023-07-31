@@ -1,7 +1,7 @@
-package com.fangyk.interceptors;
+package com.github.fykrel.interceptors;
 
-import com.fangyk.config.properties.TenantProperties;
-import com.fangyk.support.TenantThreadLocalHolder;
+import com.github.fykrel.config.properties.TenantProperties;
+import com.github.fykrel.support.TenantThreadLocalHolder;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 

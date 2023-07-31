@@ -15,6 +15,6 @@ import org.springframework.context.annotation.Import;
  */
 @Configuration
 @EnableConfigurationProperties({TenantProperties.class, PrimaryDataSourceProperties.class})
-@Import({DynamicDataSourceConfig.class, MybatisPlusConfig.class, DataSourceRunner.class, WebMvcConfig.class})
+@Import({com.fangyk.config.DynamicDataSourceConfig.class, com.fangyk.config.MybatisPlusConfig.class, DataSourceRunner.class, com.fangyk.config.WebMvcConfig.class})
 public class AutoConfiguration {
 }
